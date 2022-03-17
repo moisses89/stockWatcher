@@ -6,5 +6,5 @@ class AbstractMarketStrategy():
         self.context = context
 
 
-    def getStock(self):
+    def getStock(self,url):
         raise NotImplemented
